@@ -24,7 +24,7 @@
 10. `\conninfo`
 
 
-### postgreSQL other commands
+### Other postgreSQL commands
 1. Create new user : `create user user_name with encrypted password 'mypassword';`
 2. Grant privileges : `grant all privileges on database database_name to user_name;`
 3. Connect to new user : `psql -d database_name -U user_name -h localhost`
