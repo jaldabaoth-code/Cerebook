@@ -37,12 +37,13 @@
 ### Steps
 
 1. Clone the repo from Github
-2. Create <b>.env</b> file from <b>.env.model</b> and add your Database parameters
-3. Run `mvn install`
-4. Run the server with `sh ./env_spring_boot_run.sh`
-5. Import dataV1.sql in your SQL server
-6. Go to <b>localhost:8080</b> on your browser
-7. For login You can use :
+2. Create the database
+3. Create <b>.env</b> file from <b>.env.model</b> and add your Database parameters
+4. Run `mvn install`
+5. Run the server with `sh ./env_spring_boot_run.sh`
+6. Import dataV1.sql in your SQL server
+7. Go to <b>localhost:8080</b> on your browser
+8. For login You can use :
 
     Username = deadpool<br/>
     Password = 123456789<br/>
