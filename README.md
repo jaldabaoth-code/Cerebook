@@ -55,4 +55,4 @@
 
 ## The Links
 
-<a href="https://github.com/RaphaelBS-WCS/Cerebook">Link to the repository of project where we worked during <b>Cerebook</b></a>
+<a href="https://github.com/RaphaelBS-WCS/Cerebook">Link to the repository of project where we worked during <b>WCS CDA Project 3</b></a>
