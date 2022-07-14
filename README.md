@@ -1,4 +1,4 @@
-<h1>Cerebook (Project 3, CDA)</h1>
+<h1>Cerebook (Project 3, WCS CDA Java)</h1>
 
 ### Create a site web (social network) for superheroes on Java Spring
 
