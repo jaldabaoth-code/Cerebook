@@ -41,7 +41,7 @@
 3. Create <b>.env</b> file from <b>.env.model</b> and add your Database parameters
 4. Run `mvn install`
 5. Run the server with `sh ./env_spring_boot_run.sh`
-6. Import dataV1.sql in your SQL server
+6. Import the last version of the <b>dataVx.sql</b> file in your SQL server
 7. Go to <b>localhost:8080</b> on your browser
 8. For login You can use :
 
