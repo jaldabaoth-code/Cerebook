@@ -1,6 +1,6 @@
 <h1>Cerebook (Project 3, WCS CDA Java)</h1>
 
-### Create a site web (social network) for superheroes on Java Spring
+### Create a site web (social network) for superheroes by using Java Spring
 
 
 ---
