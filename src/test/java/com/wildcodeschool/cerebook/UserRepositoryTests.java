@@ -1,7 +1,6 @@
 package com.wildcodeschool.cerebook;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
 import com.wildcodeschool.cerebook.entity.User;
 import com.wildcodeschool.cerebook.repository.UserRepository;
 import org.junit.jupiter.api.Test;
@@ -15,7 +14,6 @@ import org.springframework.test.context.ActiveProfiles;
 @Rollback(false)
 @ActiveProfiles("test")
 public class UserRepositoryTests {
-
     @Autowired
     private TestEntityManager entityManager;
 
@@ -31,12 +29,8 @@ public class UserRepositoryTests {
         user.setLastName("Stelmach");
         user.setEmail("gerseystelmach@hotmail.com");
         user.setRole("ROLE_USER");
-
         User savedUser = userRepository.save(user);
-
         User existUser = entityManager.find(User.class, savedUser.getId());
-
         assertThat(user.getUsername()).isEqualTo(existUser.getUsername());
-
     }
 }

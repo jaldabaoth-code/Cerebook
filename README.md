@@ -36,14 +36,15 @@
 
 ### Steps
 
-1. Clone the repo from Github
-2. Create the database
-3. Create <b>.env</b> file from <b>.env.model</b> and add your Database parameters
-4. Run `mvn install`
-5. Run the server with `sh ./env_spring_boot_run.sh`
-6. Import the last version of the <b>dataVx.sql</b> file in your SQL server
-7. Go to <b>localhost:8080</b> on your browser
-8. For login You can use :
+1. Clone the repo from GitHub : `git clone git@github.com:jaldabaoth-code/Cerebook.git`
+2. Enter the directory : `cd Cerebook`
+3. Create the database
+4. Create <b>.env</b> file from <b>.env.model</b> and add your Database parameters
+5. Run `mvn install`
+6. Run the server with `sh ./env_spring_boot_run.sh`
+7. Import the last version of the <b>dataVx.sql</b> file in your SQL server
+8. Go to <b>localhost:8080</b> with your favorite browser
+9. For login You can use :
 
     Username = deadpool<br/>
     Password = 123456789<br/>
