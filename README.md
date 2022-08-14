@@ -44,7 +44,7 @@
 6. Run the server with `sh ./env_spring_boot_run.sh`
 7. Import the last version of the <b>dataVx.sql</b> file in your SQL server
 8. Go to <b>localhost:8080</b> with your favorite browser
-9. For login You can use :
+9. For login, you can use :
 
     Username = deadpool<br/>
     Password = 123456789<br/>
